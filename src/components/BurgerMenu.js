@@ -31,10 +31,10 @@ const BurgerMenu = prevProps => {
                  }} className={openProjects ? 'btnNavSelected projectBtn':'btnNav projectBtn'}>Mes Projets </li>
              {openProjects ? (
                  <ul className='projectsList'>
-                     <li>LES FUTURISTES</li>
-                     <li>GREEN PEAS</li>
-                     <li>X-UNIVERSE</li>
-                     <li>MINIMAL</li>
+                     <li><a className='linky' href='https://github.com/Nicobellick/projectFuturiste' target='blank'>LES FUTURISTES</a></li>
+                     <li><a className='linky' href='https://github.com/Nicobellick/remote-js-202011-green-peas' target='blank'>GREEN PEAS</a></li>
+                     <li><a className='linky' href='https://github.com/Nicobellick/hackaton1' target='blank'>X-UNIVERSE</a></li>
+                     <li><a className='linky' onClick={() => alert('Toujours en cours ..')}>MINIMAL</a></li>
                  </ul>
              ): null}
          </ul>
