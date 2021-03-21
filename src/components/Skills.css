@@ -2,8 +2,12 @@
     height: 400px;
 }
 
-ul {
+.skillsList ul {
     list-style-type: none;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 #hardSkill {
     display: flex;
@@ -24,4 +28,7 @@ ul {
 }
 .skillsImg {
     width: 50px;
+}
+.figma {
+    width: 30px;
 }

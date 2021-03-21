@@ -38,7 +38,7 @@ const Skills = (prevProps) => {
                     <li className='skillsLogo'><img className='skillsImg' src={logoGit} alt=''/>Git</li>
                     <li className='skillsLogo'><img className='skillsImg' src={logoTrello} alt=''/>Trello</li>
                     <li className='skillsLogo'><img className='skillsImg' src={logoDocker} alt=''/>Docker</li>
-                    <li className='skillsLogo'><img className='skillsImg' src={logoFigma} alt=''/>Figma</li>
+                    <li className='skillsLogo'><img className='skillsImg figma' src={logoFigma} alt=''/>Figma</li>
                 </ul>
                 </div>
             </div>
