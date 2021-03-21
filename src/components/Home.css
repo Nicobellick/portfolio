@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+#me, #description {
+    width: 400px;
+    height: 400px;
+    
+}
+#description {
+    margin-right: 100px;
+    font-weight: 400;
+    box-shadow: 0px 0px 20px rgb(66, 65, 65);
+    padding: 10px 40px 40px 40px;
+    border-radius:20px;
+}
+strong {
+    text-decoration: underline;
+}
+.mainTitle {
+    font-size: 200%;
+    font-family: 'Playfair Display', serif;
+}
+.subtitle {
+    margin-top:-15px;
+    text-align: end;
+    font-size:120%;
+    color:rgb(54, 51, 51);
+    font-weight:400;
+    letter-spacing: 1px;
+}
+.textAboutMe {
+    font-size: 120%;
+}
+.containMe {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+#pictureMe {
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+}
+.skillPro {
+   display: flex;
+   height:40px;
+   width:500px ;
+   justify-content: space-around;
+   align-items: center;
+   border-bottom: 1px solid black;
+   font-size: 200%;
+   font-family: 'Playfair Display', serif;
+   font-weight: 100;
+}
+.choice {
+    width:250px;
+    transition: all 0.3s;
+}
+#containSkill {
+    text-align: center;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#skills { 
+    border-right: solid;
+    border-width: 1px;
+}
+li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.choice:hover {
+    cursor: pointer;
+    text-decoration: line-through;
+    font-size:105%;
+    transition: all 0.3s;
+}

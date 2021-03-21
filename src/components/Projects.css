@@ -1,0 +1,27 @@
+.picProject {
+    width: 250px;
+    height: 400px;
+}
+.allProjects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.projet {
+    width: 260px;
+    height: 400px;
+    margin-top: 30px;
+    
+    text-align: center;
+    
+    
+}
+.projet:hover {
+    border: 1px solid rgb(84, 84, 84);
+  
+    cursor: pointer;
+  
+}
+#inProgress:hover {
+    opacity: 0.1;
+}
